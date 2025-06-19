@@ -1,6 +1,6 @@
 This is towards my Computer Science A-Level Project. 
 I have been inspired by games like Celeste and Donkey Kong Country Returns HD.
-I have watched DaFluffyPotato for pygame tutorials.
+I have watched DaFluffyPotato for pygame tutorials. He is a legend.
 Here are my Success Criteria:
 
 1.)BASIC PHYSICS
