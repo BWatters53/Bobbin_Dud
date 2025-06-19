@@ -1,3 +1,6 @@
+def __init__(self,type,size,location):
+
+
 This is towards my Computer Science A-Level Project. 
 I have been inspired by games like Celeste and Donkey Kong Country Returns HD.
 I have watched DaFluffyPotato for pygame tutorials. He is a legend.
@@ -11,7 +14,7 @@ The whole level will just be some simple blocks and platforms for testing purpos
 2.)BASIC MOTION AND MOVING PLATFORMS
 The character will be able to jump and has the capability for special kinds of motion with certain blocks (different coloured rectangles). 
 For example, there will be wall-jumping, swings and climbable regions. 
-There will also be blocks added for the puzzle/ platformer element of the game, such as moving platforms, springs and collapsing road.
+There will also be blocks added for the puzzle/ platformer element of the game, such as moving platforms, springs and collapsing roads.
 
 3.)LEVEL EDITOR AND SCROLLING TILEMAP
 The game has a level editor built in, with scrolling and and a tile-based map included. 

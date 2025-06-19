@@ -1,6 +1,7 @@
 #File Imports
 from utils import loadImg
 from entities import Entity,Player
+from tiles import Tile
 #Library Imports
 import pygame
 
@@ -17,11 +18,10 @@ assets = {
 }
 
 #Map
-tilemap = [pygame.Rect(310,320,100,15),pygame.Rect(195,365,115,15),pygame.Rect(0,380,400,20),pygame.Rect(0,200,75,15),pygame.Rect(350,45,60,15),pygame.Rect(100,100,100,15),pygame.Rect(20,20,150,15)]
-
+tilemap = [Tile("normal",(200,205))]
 
 #Player
-player = Player(16,"red",200,200,2)
+player = Player(14,"red",200,200,2)
 gravity = 0.2
 
 running = True
@@ -37,8 +37,8 @@ while running:
     player.render(display)
 
     #Map
-    for rect in tilemap:
-        pygame.draw.rect(display,"green",rect)
+    for tile in tilemap:
+        tile.render(display)
 
     #Events
     for event in pygame.event.get():
