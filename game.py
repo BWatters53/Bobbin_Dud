@@ -4,6 +4,7 @@ from entities import Entity,Player
 from tiles import Tile
 #Library Imports
 import pygame
+import math as m
 
 pygame.init()
 clock = pygame.time.Clock()
@@ -18,10 +19,10 @@ assets = {
 }
 
 #Map
-tilemap = [Tile("normal",(200,205))]
+tilemap = [Tile("move",(50,50)),Tile("climb",(168,77)),Tile("normal",(200,205)), Tile("normal",(184,189)), Tile("normal",(216,189)), Tile("bounce",(232,189)),]
 
 #Player
-player = Player(14,"red",200,200,2)
+player = Player(14,"yellow",200,200,2)
 gravity = 0.2
 
 running = True
