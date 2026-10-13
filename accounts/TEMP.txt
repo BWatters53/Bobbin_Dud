@@ -1,0 +1,8 @@
+[USERNAME]: TEMP
+[PASSWORD]: 1234
+
+[STATS]:
+    [no. jumps]: 8
+    [total score]: 0
+    [no. deaths]: 0
+[LEVEL]:

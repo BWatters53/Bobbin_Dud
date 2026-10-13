@@ -1,0 +1,7 @@
+[USERNAME]: TestAccount
+[PASSWORD]: SHM
+[STATS]:
+    [no. jumps]: 0
+    [total score]: 0
+    [no. deaths]: 0
+[LEVEL]:

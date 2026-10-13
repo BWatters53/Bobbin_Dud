@@ -1,0 +1,8 @@
+[USERNAME]: TinyTim
+[PASSWORD]: Christmas!
+
+[STATS]:
+    [no. jumps]: 114
+    [total score]: 110
+    [no. deaths]: 0
+[LEVEL]:

@@ -1,0 +1,8 @@
+[USERNAME]: twentyCharactersMAX!
+[PASSWORD]: twentyCharactersMAX!
+
+[STATS]:
+    [no. jumps]: 58
+    [total score]: 55
+    [no. deaths]: 92
+[LEVEL]:
